@@ -1,0 +1,439 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  width: 1110px;
+  margin: 0 auto;
+}
+
+main {
+  width: 100%;
+  padding: 50px 0;
+}
+main section {
+  width: 100%;
+}
+main section .titleBox {
+  width: 100%;
+  margin: 0 0 40px 0;
+}
+main section .titleBox h1 {
+  font-size: 28px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.21;
+  letter-spacing: normal;
+  color: #2b3b48;
+}
+main section .exchangeBox {
+  width: 100%;
+}
+main section .exchangeBox .box {
+  width: 100%;
+  display: flex;
+}
+main section .exchangeBox .box .left {
+  width: calc(100% - 255px);
+  padding: 0 80px 0 0;
+  margin: 0 0 40px 0;
+}
+main section .exchangeBox .box .left ul {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 30px 75px;
+}
+main section .exchangeBox .box .left ul li {
+  width: 100%;
+  display: flex;
+  border-bottom: 1px solid rgba(186, 201, 213, 0.3019607843);
+  padding: 0 0 25px 0;
+}
+main section .exchangeBox .box .left ul li:nth-last-child(-n+2) {
+  border-bottom: none;
+  padding: 0;
+}
+main section .exchangeBox .box .left ul li .imageBox {
+  width: 43px;
+  overflow: hidden;
+}
+main section .exchangeBox .box .left ul li .imageBox img {
+  width: 100%;
+  min-height: 29px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+main section .exchangeBox .box .left ul li .textBox {
+  width: calc(100% - 43px);
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0 0 15px;
+}
+main section .exchangeBox .box .left ul li .textBox .column {
+  width: 30%;
+  padding: 0 0 0 10px;
+}
+main section .exchangeBox .box .left ul li .textBox .column:first-child {
+  padding: 0;
+  width: 40%;
+}
+main section .exchangeBox .box .left ul li .textBox .column .title {
+  margin: 0 0 1px 0;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  color: #2b3b48;
+}
+main section .exchangeBox .box .left ul li .textBox .column .minTitle {
+  margin: 0 0 6px 0;
+  font-size: 12px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: right;
+  color: #4f6477;
+}
+main section .exchangeBox .box .left ul li .textBox .column .desc {
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2;
+  letter-spacing: normal;
+  color: #2b3b48;
+}
+main section .exchangeBox .box .left ul li .textBox .column .number {
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: right;
+  color: #2b3b48;
+}
+main section .exchangeBox .box .right {
+  width: 255px;
+  height: fit-content;
+  padding: 20px 20px 25px 20px;
+  background-image: linear-gradient(146deg, #2b3b48 34%, #8093a5 110%);
+}
+main section .exchangeBox .box .right h2 {
+  font-size: 20px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.7;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+  margin: 0 0 25px 0;
+}
+main section .exchangeBox .box .right .inputBox {
+  display: flex;
+  width: 100%;
+}
+main section .exchangeBox .box .right .inputBox:last-child .input input {
+  padding: 10px 48px 10px 15px;
+}
+main section .exchangeBox .box .right .inputBox .input {
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+main section .exchangeBox .box .right .inputBox .input input {
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+  height: 48px;
+  padding: 10px 15px;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  color: #2b3b48;
+}
+main section .exchangeBox .box .right .inputBox .input span {
+  position: absolute;
+  right: 15px;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  text-align: right;
+  color: #2b3b48;
+}
+main section .exchangeBox .box .right .iconBox {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 19px 0;
+}
+main section .exchangeBox .box .right .iconBox i {
+  background-image: url(../img/change-arrow.svg);
+  width: 48px;
+  height: 48px;
+  display: block;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+main section .buttonBox {
+  width: 100%;
+}
+main section .buttonBox .box {
+  display: flex;
+  display: flex;
+  width: calc(100% - 255px);
+  padding: 0 80px 0 0;
+  gap: 75px;
+}
+main section .buttonBox .box .button {
+  width: 50%;
+}
+main section .buttonBox .box .button:last-child a {
+  border: 2px solid #2b3b48;
+  background-color: #fff;
+}
+main section .buttonBox .box .button:last-child a:hover::before {
+  background-color: #2b3b48;
+}
+main section .buttonBox .box .button:last-child a:hover span {
+  color: #fff;
+}
+main section .buttonBox .box .button:last-child a:hover i {
+  background-image: url(../img/right-arrow-white.png);
+}
+main section .buttonBox .box .button:last-child a span {
+  color: #2b3b48;
+}
+main section .buttonBox .box .button a {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  border: 2px solid transparent;
+  background-color: #2b3b48;
+  width: 100%;
+}
+main section .buttonBox .box .button a:hover::before {
+  width: 100%;
+  right: auto;
+  left: 0;
+}
+main section .buttonBox .box .button a:hover span {
+  color: #2b3b48;
+}
+main section .buttonBox .box .button a::before {
+  content: "";
+  width: 0;
+  height: 100%;
+  background-color: #fff;
+  position: absolute;
+  top: 0;
+  left: auto;
+  right: 0;
+  transition: all 0.6s ease-in-out;
+  z-index: 1;
+}
+main section .buttonBox .box .button a span {
+  font-size: 15px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.94px;
+  text-align: center;
+  color: #fff;
+  transition: color 0.3s ease-in-out;
+  position: relative;
+  z-index: 2;
+}
+main section .buttonBox .box .button a i {
+  display: none;
+  background-image: url(../img/right-arrow.png);
+  width: 18px;
+  height: 14px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 0 0 0 10px;
+  position: relative;
+  z-index: 2;
+  transition: all 0.3s ease-in-out;
+}
+
+.select2-container {
+  width: 85px !important;
+}
+.select2-container.select2-container--open .select2-selection--single .select2-selection__arrow::before {
+  transform: rotate(180deg);
+}
+.select2-container .select2-selection--single {
+  border: none;
+  border-left: 1px solid #eaeef2;
+  border-radius: initial;
+  height: 48px;
+}
+.select2-container .select2-selection--single .select2-selection__rendered {
+  height: 100%;
+  padding-left: 14px;
+  display: flex;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  text-align: right;
+  color: #2b3b48;
+}
+.select2-container .select2-selection--single .select2-selection__arrow {
+  top: 0;
+  right: 0;
+  width: 25px;
+  height: 100%;
+  transition: all 0.4s ease-in-out;
+  display: flex;
+  align-items: center;
+}
+.select2-container .select2-selection--single .select2-selection__arrow b {
+  display: none;
+}
+.select2-container .select2-selection--single .select2-selection__arrow::before {
+  content: "";
+  background-image: url(../img/arrow-down.png);
+  fill: #2b3b48;
+  height: 6px;
+  width: 10px;
+  display: block;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.select2-dropdown {
+  border: none;
+  border-radius: initial;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+}
+.select2-dropdown .select2-results__options {
+  max-height: 250px !important;
+}
+.select2-dropdown .select2-results__options .select2-results__option {
+  font-size: 16px;
+  padding: 9px 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  color: #2b3b48;
+}
+
+@media only screen and (max-width: 1199px) {
+  .container {
+    width: 100%;
+    padding: 0 30px;
+  }
+  main section .exchangeBox .box .left ul {
+    grid-template-columns: repeat(1, minmax(0px, 1fr));
+    gap: 30px 0;
+  }
+}
+@media only screen and (max-width: 991px) {
+  main section .buttonBox .box {
+    flex-direction: column;
+    gap: initial;
+  }
+  main section .buttonBox .box .button {
+    width: 100%;
+    margin: 0 0 15px 0;
+  }
+  main section .buttonBox .box .button:last-child {
+    margin: 0;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .container {
+    padding: 0 15px;
+  }
+  main {
+    padding: 15px 0;
+  }
+  main section .titleBox {
+    margin: 0 0 15px 0;
+  }
+  main section .titleBox h1 {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 2.45;
+    letter-spacing: -0.49px;
+  }
+  main section .exchangeBox .box {
+    flex-direction: column;
+    margin: 0 0 25px 0;
+  }
+  main section .exchangeBox .box .left {
+    width: 100%;
+    padding: 0;
+    margin: 0 0 30px 0;
+  }
+  main section .exchangeBox .box .left ul {
+    gap: 20px 0;
+  }
+  main section .exchangeBox .box .left ul li {
+    padding: 0 0 20px 0;
+  }
+  main section .exchangeBox .box .left ul li:nth-last-child(-n+2) {
+    border-bottom: 1px solid rgba(186, 201, 213, 0.3019607843);
+    padding: 0 0 20px 0;
+  }
+  main section .exchangeBox .box .left ul li:last-child {
+    border-bottom: none;
+    padding: 0;
+  }
+  main section .exchangeBox .box .right {
+    width: 100%;
+  }
+  main section .buttonBox .box {
+    width: 100%;
+    padding: 0;
+  }
+  main section .buttonBox .box .button:last-child a {
+    border: none;
+  }
+  main section .buttonBox .box .button a i {
+    display: block;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .container {
+    padding: 0 10px;
+  }
+  main section .exchangeBox .box .left ul li .imageBox {
+    width: 30px;
+  }
+  main section .exchangeBox .box .left ul li .imageBox img {
+    min-height: 20px;
+  }
+  main section .exchangeBox .box .left ul li .textBox {
+    width: calc(100% - 30px);
+  }
+  main section .exchangeBox .box .left ul li .textBox .column {
+    width: auto;
+  }
+  main section .exchangeBox .box .left ul li .textBox .column .number {
+    font-size: 14px;
+  }
+}

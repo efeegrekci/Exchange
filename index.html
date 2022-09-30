@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MagiClick</title>
+    <meta name="description" content="Exchange Box" />
+    <link
+      href="assets/img/favicon.ico"
+      rel="shortcut icon"
+      type="image/x-icon"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="preload" href="/assets/css/master.min.css?v=01" as="style">
+    <link rel="stylesheet" href="/assets/css/master.min.css?v=01">
+    
+
+  </head>
+  <body>
+    <main>
+      <section>
+        <div class="titleBox">
+          <div class="container">
+            <h1>Piyasalar</h1>
+          </div>
+        </div>
+
+        <div class="exchangeBox">
+          <div class="container">
+            <div class="box">
+              <div class="left">
+                <ul></ul>
+              </div>
+              <div class="right">
+                <h2>Döviz Çevir</h2>
+
+                <div class="inputBox">
+                  <div class="input">
+                    <input
+                      type="text"
+                      class="from"
+                      name="from"
+                      id="from"
+                      value="1"
+                      aria-label="from"
+                    />
+                  </div>
+
+                  <div class="selectBox">
+                    <select class="changeSelect">
+                      <option value="0">USD</option>
+                      <option value="1">JPY</option>
+                      <option value="2">DKK</option>
+                      <option value="3">EUR</option>
+                      <option value="4">GBP</option>
+                      <option value="5">NOK</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="iconBox">
+                  <i></i>
+                </div>
+
+                <div class="inputBox">
+                  <div class="input">
+                    <input
+                      type="text"
+                      class="to"
+                      name="to"
+                      id="to"
+                      aria-label="to"
+                      readonly
+                    />
+                    <span>TL</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="buttonBox">
+          <div class="container">
+            <div class="box">
+              <div class="button">
+                <a href="javascript:;">
+                  <span>Detaylı Bilgi</span>
+                </a>
+              </div>
+              <div class="button">
+                <a href="javascript:;">
+                  <span>Tüm Piyasalar</span>
+                  <i></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <link rel="preload" href="/assets/js/master.min.js?v=01" as="script">
+    <script src="/assets/js/master.min.js?v=01" type="text/javascript" async></script>
+
+  </body>
+</html>
