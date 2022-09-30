@@ -89,7 +89,7 @@ main{width: 100%; padding: 50px 0;
         .select2-selection__rendered{height: 100%; padding-left: 14px; display: flex; align-items: center; font-family: 'Roboto', sans-serif; font-size: 16px; font-weight: 500; font-stretch: normal; font-style: normal; line-height: 1.25; letter-spacing: normal; text-align: right; color: #2b3b48;}
         .select2-selection__arrow{top: 0; right: 0; width: 25px; height: 100%;transition: all 0.4s ease-in-out; display: flex; align-items: center;
             b{display: none;}
-            &::before{content: ""; background-image: url(../img/arrow-down.png); fill:#2b3b48 ; height: 6px; width: 10px; display: block; background-size: contain; background-repeat: no-repeat;}
+            &::before{content: ""; background-image: url(../img/arrow-down.png); fill:#2b3b48 ; height: 6px; width: 10px; display: block; background-size: contain; background-repeat: no-repeat; transition: all 0.4s ease;}
         }
     }
 }
